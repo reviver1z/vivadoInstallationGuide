@@ -21,6 +21,8 @@ FPGAs are widely used in many applications and industries. Their main uses inclu
 
 The combined use of Vivado and FPGAs allows for the development of advanced digital systems that are tailored to the needs of the specific application.
 
+
+
 **Module 2: Installing Vivado
 Instructions for installing Vivado:**
 
@@ -45,6 +47,8 @@ Additionally, you can customize the Vivado environment according to your prefere
 During installation, you should consider your system's requirements. Some installation options and packages may require more disk space and processing power depending on your needs.
 
 Furthermore, if you intend to use Vivado for specific applications, such as microcontroller design or digital signal processing, you should choose the corresponding packages and options during the installation.
+
+
 
 **Module 3: Project Selection and Analysis
 Creating a New Project in Vivado**
@@ -73,6 +77,8 @@ Next, you need to define your project parameters, such as the type of FPGA, cloc
 With the addition of source code files, you also need to define the inputs and outputs of your design. This depends on the nature of your project.
 1. Adding Inputs/Outputs: In the project window, you can add inputs and outputs for your design using "I/O Ports" or "I/O Planning."
 
+
+
 **Module 4: Block Diagram Design
 Using Block Design to Create a Block Diagram**
 
@@ -95,6 +101,8 @@ In Block Design, connecting the various components is crucial for the operation 
 During the creation of the Block Diagram, you may need to customize the IP you use to fit the requirements of your design.
 1. Edit IP: Select the IP in the Block Design and edit its settings if necessary to be compatible with your requirements.
 
+
+
 **Module 5: Synthesis and Implementation
 Description of the Synthesis and Implementation Process**
 The process of synthesis and implementation is critical in the development of FPGA systems, as it involves converting your design into a real, professional, programmable system. This process includes synthesizing the code into a processing core, configuring the system clock, and selecting the components that will be used.
@@ -108,6 +116,8 @@ In the implementation process, Vivado provides automatic component selection fea
 While automatic component selection is useful, manual configuration and customization may also be required to achieve specific requirements. This includes configuring the system clock to achieve the required operating frequency or adjusting the routing paths for optimal performance.
 
 With these steps, you have completed the process of synthesis and implementation of your design in Vivado. This marks the final phase before the creation of the Bitstream, which is the file that can be programmed into the FPGA.
+
+
 
 **Module 6: Bitstream Generation
 Instructions for creating the Bitstream**
@@ -131,6 +141,8 @@ After saving the Bitstream, it is important to ensure that it is correct and fun
 1. Load the Bitstream: Load the Bitstream into the FPGA programming tool.
 2. Program the FPGA: Using the programming tool, program the FPGA with the Bitstream.
 3. Test Functionality: Test the FPGA to confirm that it operates as expected. Check the input and output of your design.
+
+
 
 **Module 7: Project Example
 Presentation of a suggested project example**
@@ -160,6 +172,8 @@ The Bitstream generated from this project contains the programmed logic for moti
 - Technologies: VHDL or Verilog, Vivado, image processor.
 
 This project example offers an overview of the process of developing FPGA systems, from code and Block Diagram to synthesis and Bitstream. As you learn Vivado, you can develop similar projects tailored to your needs.
+
+
 
 **Module 8: Epilogue and Resources
 Summarize the main points of the guide:**
